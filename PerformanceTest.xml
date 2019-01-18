@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PerformanceTest" parallel="false">
+
+       <test name="Safari">
+     <parameter name="BrowserName" value="Safari" />
+   
+        <classes>
+            <class
+                name="PerformanceTests.PerformanceTests" />
+        </classes>
+    </test>
+
+       <test name="Chrome">
+     <parameter name="BrowserName" value="Chrome" />
+   
+        <classes>
+            <class
+                name="PerformanceTests.PerformanceTests" />
+        </classes>
+    </test>
+
+
+  
+    <test name="FirefoxTest">
+    <parameter name="BrowserName" value="Firefox" />
+        <classes>
+            <class
+                name="PerformanceTests.PerformanceTests" />
+        </classes>
+    </test>
+    
+
+    
+    
+
+</suite>
+

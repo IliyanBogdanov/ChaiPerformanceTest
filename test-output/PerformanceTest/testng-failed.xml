@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PerformanceTest]">
+  <parameter name="BrowserName" value="Chrome"/>
+  <test name="SafariTest(failed)">
+    <parameter name="BrowserName" value="Safari"/>
+    <classes>
+      <class name="PerformanceTests.PerformanceTests">
+        <methods>
+          <include name="SetBrowser"/>
+          <include name="SetBrowser"/>
+          <include name="SetBrowser"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+          <include name="Finish"/>
+          <include name="Finish"/>
+          <include name="ChaiLoadingTime"/>
+        </methods>
+      </class> <!-- PerformanceTests.PerformanceTests -->
+    </classes>
+  </test> <!-- SafariTest(failed) -->
+</suite> <!-- Failed suite [PerformanceTest] -->
